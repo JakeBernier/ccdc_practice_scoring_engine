@@ -3,25 +3,25 @@
 
 return array(
 		'http' => array(
-				'URL' => 'http://127.0.0.1/jake.html',
+				'URL' => 'http://192.168.2.13/jake.html',
 				'hash' => '72c781843ae9015b567c08467607bb1a',
 		),
 		'https' => array(
-				'URL' => 'https://century.edu/about',
+				'URL' => 'https://192.168.1.2/about',
 				'hash' => 'c8c63d57568b525346a84ca606efc13c',
 		),
 		'ftp' => array(
-				'server' => '127.0.0.1',
+				'server' => '192.168.4.5',
 				'user' => 'ubuntu',
 				'pass' => 'ubuntu',
 		),
 		'dns' => array(
-				'server' => '8.8.8.8',
-				'record' => 'mail3.r1ddl3r.com',
-				'expected' => '35.166.80.254',
+				'server' => '192.168.3.4',
+				'record' => 'foo.bar.com',
+				'expected' => '192.168.2.2',
 		),
 		'sql' => array(
-				'server' => '127.0.0.1',
+				'server' => '192.168.2.11',
 				'user' => 'root',
 				'pass' => 'root',
 				'db' => 'testdb',
@@ -29,7 +29,7 @@ return array(
 				'expected' => 'foobar',
 		),
 		'pop3' => array(
-				'server' => '127.0.0.1',
+				'server' => '19.168.1.7',
 				'user' => 'ubuntu',
 				'pass' => 'ubuntu',
 				'ssl' => 'true', // true or false
@@ -40,8 +40,8 @@ return array(
 				'pass' => 'p@ssw0rd',
 		),
 		'generic' => array(
-				'server' => '127.0.0.1',
-				'port' => '80',
+				'server' => '192.168.5.7',
+				'port' => '8080',
 		),
 );
 ?>
