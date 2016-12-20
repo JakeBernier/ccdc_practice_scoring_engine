@@ -2,5 +2,7 @@ Practice scoring engine for teams to use in preperation for the Collegiate Cyber
 Quick and dirty solution meant for practice labs.
 Recommended set up - ubuntu LAMP
 sudo apt-get install php-curl php-net-ftp php-imap php-ldap
+copy files to web root directory
+edit config.php for your specific lab environment
 ideas from - https://github.com/reedwilkins/Scoring-Engine
 jake bernier - dec. 2016
